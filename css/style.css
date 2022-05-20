@@ -1,0 +1,175 @@
+/* Google fonts link */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background-color: orange;
+  border-radius: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Navigation Menu */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+header nav ul {
+  display: flex;
+  margin: 0 50px;
+  flex-direction: row;
+}
+
+header nav ul li {
+  padding: 10px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* Logo */
+
+.logo img {
+  width: 150px;
+}
+
+/* Left Navigation with Search and other icons */
+
+.navigation-right {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0 50px;
+}
+
+.navigation-right .search input {
+  width: 300px;
+  padding: 2px;
+  padding-left: 20px;
+}
+
+.navigation-right .icons {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.navigation-right .icons a {
+  padding-left: 15px;
+  color: navy;
+}
+
+/* Search Icon */
+
+.search i {
+  position: absolute;
+}
+
+.search .icon {
+  padding: 5px;
+  min-width: 40px;
+}
+
+/* landing Section */
+
+section.landing {
+  background-image: url("../images/books.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin: 0 50px;
+}
+
+.container {
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+.container button {
+  margin-top: 20px;
+  padding: 10px 50px;
+  font-size: 20px;
+}
+
+/* Quote Section */
+
+section.quote {
+  margin: 20px 50px;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+section.quote h4 {
+  float: right;
+}
+
+/* Featured Cards */
+
+.featured-books {
+  margin: 20px 30px;
+}
+
+.featured-books .row {
+  display: flex;
+}
+
+.featured-books .row .column .card {
+  display: flex;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.featured-books .row .column .card img {
+  height: 300px;
+  width: 200px;
+}
+
+.featured-books .row .column .card .card-content {
+  padding: 50px 20px;
+}
+
+/* Footer  */
+
+footer {
+  background-color: lightgray;
+  border-top: 1px solid black;
+}
+
+.footer-container {
+  margin: 0px 50px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .footer-left input {
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.footer-container .footer-left button {
+  padding: 5px 10px;
+}
+
+.footer-container .footer-right a {
+  padding: 10px 10px;
+  font-size: 30px;
+  color: navy;
+}
+.copyright {
+  text-align: center;
+  padding-bottom: 10px;
+}

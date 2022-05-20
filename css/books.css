@@ -1,0 +1,48 @@
+.filter-header {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+/* Price Cards */
+
+.price-cards {
+  margin: 20px 30px;
+}
+
+.price-cards .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-cards .row .column .card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.price-cards .row .column .card img {
+  height: 220px;
+  width: 175px;
+}
+
+.price-cards .row .column .card .content {
+  padding-top: 10px;
+}
+
+.price-cards .row .column .card .content p {
+  font-size: 12px;
+}
+
+.price-cards .row .column .card .content button {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: orange;
+}

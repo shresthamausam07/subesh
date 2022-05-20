@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+}
+table {
+  margin: 50px;
+  border: 2px solid black;
+}
+
+caption {
+  margin-bottom: 20px;
+}
+
+td {
+  padding: 10px;
+}

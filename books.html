@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <------- External CSS Link-------->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/books.css" />
+
+    <!-- <----- Font Awesome Link ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <title>Books</title>
+  </head>
+  <body>
+    <!---------------------- Header Section with Navigation ------------------------>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html" style="color: navy; border-bottom: 2px solid navy">Books</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="logo">
+        <img src="./images/logo.png" alt="logo-img" />
+      </div>
+
+      <div class="navigation-right">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+          <input type="text" placeholder="Search by Title, Author or ISBN here..." style="border-radius: 20px" />
+        </div>
+        <div class="icons">
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!---------------------- Filter Sewction -------------------->
+
+    <div class="filter-header">
+      <h2>New Releases</h2>
+      <h4>
+        Sort :
+        <select name="filter" id="fiter">
+          <option value="popularity">Poplarity</option>
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+          <option value="Lowest">Lowest Price</option>
+          <option value="Highest">Highest Price</option>
+        </select>
+      </h4>
+    </div>
+
+    <!---------------------- Price Cards --------------------------->
+
+    <section class="price-cards">
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/book1.jpeg" alt="" />
+            <div class="content">
+              <h4>Rich Dad Poor Dad</h4>
+              <p>by Robert T. Kiyosakio</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book2.jpg" alt="" />
+            <div class="content">
+              <h4>The Hobbit</h4>
+              <p>by J.J.R Tolkein</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book3.jpg" alt="" />
+            <div class="content">
+              <h4>Atomic Habits</h4>
+              <p>by James Clear</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book4.jpg" alt="" />
+            <div class="content">
+              <h4>The Alchemist</h4>
+              <p>by Paulo Coelho</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book5.jpg" alt="" />
+            <div class="content">
+              <h4>The Da Vinci Code</h4>
+              <p>by Dan Brown</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book6.jpg" alt="" />
+            <div class="content">
+              <h4>The Miniaturist</h4>
+              <p>by Jessie Burt</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/book3.jpg" alt="" />
+            <div class="content">
+              <h4>Atomic Habits</h4>
+              <p>by James Clear</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book2.jpg" alt="" />
+            <div class="content">
+              <h4>The Hobbit</h4>
+              <p>by J.J.R Tolkein</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book1.jpeg" alt="" />
+            <div class="content">
+              <h4>Rich Dad Poor Dad</h4>
+              <p>by Robert T. Kiyosakio</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book6.jpg" alt="" />
+            <div class="content">
+              <h4>The Miniaturist</h4>
+              <p>by Jessie Burt</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book5.jpg" alt="" />
+            <div class="content">
+              <h4>The Da Vinci Code</h4>
+              <p>by Dan Brown</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="images/book4.jpg" alt="" />
+            <div class="content">
+              <h4>The Alchemist</h4>
+              <p>by Paulo Coelho</p>
+              <h5>Rs.350</h5>
+              <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------- Footer Start ----------------------------->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2>Subscribe to our newsletter</h2>
+          <input type="email" placeholder="Your email address" />
+          <button class="btn">Subscribe</button>
+        </div>
+        <div class="footer-right">
+          <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2022 Bookshub.com -- All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

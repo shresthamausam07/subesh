@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <------- External CSS Link-------->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+
+    <!-- <----- Font Awesome Link ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <title>Contact</title>
+
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <!---------------------- Header Section with Navigation ------------------------>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="contact.html" style="color: navy; border-bottom: 2px solid navy">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="logo">
+        <img src="./images/logo.png" alt="logo-img" />
+      </div>
+
+      <div class="navigation-right">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+          <input type="text" placeholder="Search by Title, Author or ISBN here..." style="border-radius: 20px" />
+        </div>
+        <div class="icons">
+          <a href=""><i class="fa-solid fa-user"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!---------------------- Contact Form -------------------->
+
+    <div class="contact-container">
+      <div class="left-container">
+        <i class="fa-solid fa-envelope-open-text" style="font-size: 150px"></i>
+        <p>
+          If you have any queries or requests or simply want to get in touch with us. Fill the form and submit. We'll
+          respond as soon as possible.
+        </p>
+      </div>
+      <div class="right-container" id="right-container">
+        <h1>Contact Us</h1>
+        <form onsubmit="emailChecker()" method="post">
+          <input class="input" type="text" name="name" placeholder="Name" required />
+          <input class="input" type="email" id="email" placeholder="Your Email" required />
+          <input class="input" type="email" id="confirmEmail" placeholder="Confirm Email" required />
+          <textarea class="input" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!--------------------------- Footer Start ----------------------------->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h2>Subscribe to our newsletter</h2>
+          <input type="email" placeholder="Your email address" />
+          <button class="btn">Subscribe</button>
+        </div>
+        <div class="footer-right">
+          <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy; 2022 Bookshub.com -- All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

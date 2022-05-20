@@ -1,0 +1,43 @@
+.contact-container {
+  display: flex;
+  margin: 50px 100px;
+  border: 1px solid black;
+}
+
+.left-container {
+  width: 40%;
+  padding: 120px;
+  border-right: 1px solid black;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.left-container p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.right-container {
+  width: 60%;
+  padding: 85px;
+  text-align: center;
+}
+
+.right-container h1 {
+  padding-bottom: 20px;
+}
+
+.right-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container form .input {
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.right-container form button {
+  padding: 10px;
+  cursor: pointer;
+}
